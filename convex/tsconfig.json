@@ -1,0 +1,11 @@
+{
+  "extends": "../packages/config/typescript.json",
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["ES2021"],
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules", ".convex"]
+}
